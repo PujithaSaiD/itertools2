@@ -1,0 +1,6 @@
+from itertools import permutations
+a=input().split()
+list1=list(permutations(a[0],int(a[1])))
+list1.sort()
+for j in list1:
+    print("".join(j))
